@@ -1,11 +1,24 @@
 .booking {
-  max-width: 818px;
-  margin: 40px auto 31px auto;
-  text-align: left;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: $site-black;
-  font-family: ProxThin;
+  max-width: $home-form-width;
+  min-height: 40px;
   background-color: yellow;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 31px;
+  .bookingTxt {
+    color: $site-black;
+    font-family: ProxThin;
+    position: absolute;
+    left: 0px;
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: $home-form-width) {
+  .booking {
+    display: flex;
+    text-align: center;
+    left: 0px;
+  }
 }

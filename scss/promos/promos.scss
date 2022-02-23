@@ -1,16 +1,16 @@
 .promos {
-  max-width: 818px;
+  max-width: $home-form-width;
   min-height: 304px;
   margin: -37px auto 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: yellow;
+  // background-color: yellow;
 
   .tour {
     min-width: 236px;
     min-height: 304px;
-    background-color: green;
+    // background-color: green;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +68,7 @@
   }
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 818px) {
   .promos {
     width: 236px;
     height: 1022px;

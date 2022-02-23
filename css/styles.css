@@ -70,7 +70,7 @@ nav .links span {
 .banner {
   max-width: 1280px;
   min-height: 500px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../images/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)), url(../images/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,16 +81,16 @@ nav .links span {
 }
 .banner .travel-fly {
   position: absolute;
-  top: 141.5px;
+  top: 180px;
 }
 .banner .travel-fly p {
   color: white;
   font-family: ProxThin;
-  font-size: 30px;
+  font-size: 40px;
 }
 .banner .lorem {
   position: absolute;
-  top: 210.5px;
+  top: 279.5px;
 }
 .banner .lorem p {
   color: white;
@@ -111,18 +111,16 @@ nav .links span {
 }
 
 .promos {
-  max-width: 818px;
+  max-width: 800px;
   min-height: 304px;
   margin: -37px auto 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: yellow;
 }
 .promos .tour {
   min-width: 236px;
   min-height: 304px;
-  background-color: green;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,7 +146,7 @@ nav .links span {
   background-repeat: no-repeat;
 }
 .promos .t3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(../images/tour-03.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -166,7 +164,7 @@ nav .links span {
   margin-top: 58px;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 818px) {
   .promos {
     width: 236px;
     height: 1022px;
@@ -174,19 +172,31 @@ nav .links span {
   }
 }
 .booking {
-  max-width: 818px;
-  margin: 40px auto 31px auto;
-  text-align: left;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 800px;
+  min-height: 40px;
+  background-color: yellow;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 31px;
+}
+.booking .bookingTxt {
   color: black;
   font-family: ProxThin;
-  background-color: yellow;
+  position: absolute;
+  left: 0px;
+  font-size: 20px;
 }
 
+@media all and (max-width: 800px) {
+  .booking {
+    display: flex;
+    text-align: center;
+    left: 0px;
+  }
+}
 .form-content {
-  max-width: 818px;
+  max-width: 800px;
   min-height: 200px;
   margin: 0 auto;
   position: relative;
