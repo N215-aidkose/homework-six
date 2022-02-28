@@ -15,10 +15,10 @@
     .holder {
       position: relative;
       .long-box {
-        width: 453px;
+        width: 432px;
       }
       input {
-        width: 344px;
+        width: 347px;
         height: 58px;
         padding-left: 10px;
         border: $content-border;
@@ -32,7 +32,7 @@
   }
 
   .row2 {
-    max-width: 800px;
+    width: 800px;
     margin-top: 20px;
     align-items: center;
     margin-bottom: 20px;
@@ -79,7 +79,7 @@
     }
   }
   .row3 {
-    max-width: 800px;
+    width: 800px;
     height: 58px;
     background-color: $site-white;
     display: flex;
@@ -132,41 +132,46 @@
   }
 }
 
-@media all and (max-width: $home-form-width) {
-  .form-content {
-    margin: $center;
-    .row1 {
-      display: block;
-      flex-direction: column;
-      margin: 0 auto 20px 20px;
-      #fName {
-        width: 90%;
-        margin-bottom: 20px;
-      }
-      #country {
-        width: 90%;
-        margin-bottom: 20px;
-      }
-      .holder {
-        .long-box {
-          width: 90%;
-        }
-      }
-    }
-  }
-}
+// @media all and (max-width: $home-form-width) {
+//   .form-content {
+//     margin-left: 20px;
+//     .row1 {
+//       display: block;
+//       flex-direction: column;
+//       width: 90%;
+//       .holder {
+//         margin-bottom: 20px;
+//         #email {
+//           width: 95%;
+//         }
+//       }
+//     }
+//   }
+// }
 
-@media all and (max-width: $home-form-width) {
-  .form-content {
-    .submit-button {
-      width: 90%;
-    }
-  }
-}
+// @media all and (max-width: $home-form-width) {
+//   .form-content {
+//     .row1 {
+//       background-color: green;
+//       .long-box {
+//         width: 100%;
+//       }
+//     }
+//   }
+// }
 
-@media all and (max-width: $home-form-width) {
-  .message-box {
-    width: 90%;
-    background-color: green;
-  }
-}
+// @media all and (max-width: $home-form-width) {
+//   .form-content {
+//     .submit-button {
+//       width: 90%;
+//     }
+//   }
+// }
+
+// @media all and (max-width: $home-form-width) {
+//   .message-box {
+//     width: 90%;
+//     background-color: black;
+//     margin-left: -20px;
+//   }
+// }
