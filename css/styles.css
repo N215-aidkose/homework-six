@@ -191,7 +191,7 @@ nav .links span {
   .booking {
     display: flex;
     text-align: center;
-    left: 0px;
+    left: 20px;
   }
 }
 .form-content {
