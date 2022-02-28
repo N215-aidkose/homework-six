@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: $button-width;
+  max-width: $button-width;
   height: $button-height;
   background-color: $button-color;
   margin: 0 auto;
