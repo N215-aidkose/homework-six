@@ -131,34 +131,32 @@
 
 @media all and (max-width: $home-form-width) {
   .form-content {
+    margin: $center;
     .row1 {
       display: block;
       flex-direction: column;
-      padding-left: 20px;
+      margin: 0 auto 20px 20px;
       #fName {
-        width: 445px;
+        width: 95%;
         margin-bottom: 20px;
       }
       #country {
-        width: 445px;
+        width: 95%;
         margin-bottom: 20px;
       }
       .holder {
         .long-box {
-          width: 445px;
+          width: 95%;
         }
       }
     }
   }
 }
 
-// @media all and (max-width: $home-form-width) {
-//   .form-content {
-//     .row1 {
-//       display: block;
-//       flex-direction: column;
-//       padding-left: 20px;
-
-//     }
-//   }
-// }
+@media all and (max-width: $home-form-width) {
+  .form-content {
+    .submit-button {
+      width: 95%;
+    }
+  }
+}

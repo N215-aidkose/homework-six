@@ -313,21 +313,29 @@ nav .links span {
 }
 
 @media all and (max-width: 800px) {
+  .form-content {
+    margin: 0 auto;
+  }
   .form-content .row1 {
     display: block;
     flex-direction: column;
-    padding-left: 20px;
+    margin: 0 auto 20px 20px;
   }
   .form-content .row1 #fName {
-    width: 445px;
+    width: 95%;
     margin-bottom: 20px;
   }
   .form-content .row1 #country {
-    width: 445px;
+    width: 95%;
     margin-bottom: 20px;
   }
   .form-content .row1 .holder .long-box {
-    width: 445px;
+    width: 95%;
+  }
+}
+@media all and (max-width: 800px) {
+  .form-content .submit-button {
+    width: 95%;
   }
 }
 .message-box {
