@@ -128,3 +128,22 @@
     }
   }
 }
+
+@media all and (max-width: $home-form-width) {
+  .form-content {
+    .row1 {
+      display: block;
+      flex-direction: column;
+      padding-left: 20px;
+      #fName {
+        width: 445px;
+        margin-bottom: 20px;
+      }
+      .holder {
+        .long-box {
+          width: 445px;
+        }
+      }
+    }
+  }
+}
