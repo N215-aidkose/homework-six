@@ -218,6 +218,8 @@ nav .links span {
 }
 .form-content .row1 .holder .long-box {
   width: 432px;
+  margin-left: 17px;
+  margin-top: 20px;
 }
 .form-content .row1 .holder input {
   width: 347px;
@@ -319,6 +321,36 @@ nav .links span {
   margin-left: 57px;
 }
 
+@media all and (max-width: 800px) {
+  .form-content .row1 {
+    margin-left: 20px;
+    width: 90%;
+  }
+  .form-content .row1 .holder input {
+    width: 100%;
+  }
+  .form-content .row1 .holder .long-box {
+    width: 100%;
+  }
+  .form-content .row1 .holder #email {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .form-content .row1 .holder #hotel {
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+}
+@media all and (max-width: 800px) {
+  .form-content .submit-button {
+    width: 90%;
+  }
+}
+@media all and (max-width: 800px) {
+  .form-content .message-box {
+    width: 90%;
+  }
+}
 .message-box {
   margin: 0 auto;
   margin-bottom: 37px;
