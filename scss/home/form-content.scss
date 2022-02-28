@@ -162,6 +162,28 @@
 
 @media all and (max-width: $home-form-width) {
   .form-content {
+    .row2 {
+      // background-color: green;
+      margin-left: 20px;
+      width: 90%;
+      height: 58px;
+      .holder2 {
+        width: 100%;
+        // background-color: yellow;
+        .row2-input {
+          width: 100%;
+          input {
+            // background-color: blue;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: $home-form-width) {
+  .form-content {
     .submit-button {
       width: 90%;
     }

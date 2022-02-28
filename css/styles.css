@@ -342,6 +342,22 @@ nav .links span {
   }
 }
 @media all and (max-width: 800px) {
+  .form-content .row2 {
+    margin-left: 20px;
+    width: 90%;
+    height: 58px;
+  }
+  .form-content .row2 .holder2 {
+    width: 100%;
+  }
+  .form-content .row2 .holder2 .row2-input {
+    width: 100%;
+  }
+  .form-content .row2 .holder2 .row2-input input {
+    width: 100%;
+  }
+}
+@media all and (max-width: 800px) {
   .form-content .submit-button {
     width: 90%;
   }
