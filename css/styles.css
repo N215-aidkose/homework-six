@@ -200,6 +200,7 @@ nav .links span {
   position: relative;
 }
 .form-content .row1 {
+  max-width: 800px;
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -224,6 +225,7 @@ nav .links span {
   right: 10px;
 }
 .form-content .row2 {
+  max-width: 800px;
   margin-top: 20px;
   align-items: center;
   margin-bottom: 20px;
@@ -252,12 +254,11 @@ nav .links span {
   position: relative;
 }
 .form-content .row2 .holder2 .row2-input input {
-  width: 698px;
+  width: 704px;
   height: 58px;
   padding-left: 10px;
   border: 2px solid #79addc;
   color: black;
-  margin-left: 24px;
 }
 .form-content .row2 .holder2 .row2-input i {
   position: absolute;
@@ -266,7 +267,7 @@ nav .links span {
   right: 20px;
 }
 .form-content .row3 {
-  width: 818px;
+  max-width: 800px;
   height: 58px;
   background-color: white;
   display: flex;
@@ -322,20 +323,26 @@ nav .links span {
     margin: 0 auto 20px 20px;
   }
   .form-content .row1 #fName {
-    width: 95%;
+    width: 90%;
     margin-bottom: 20px;
   }
   .form-content .row1 #country {
-    width: 95%;
+    width: 90%;
     margin-bottom: 20px;
   }
   .form-content .row1 .holder .long-box {
-    width: 95%;
+    width: 90%;
   }
 }
 @media all and (max-width: 800px) {
   .form-content .submit-button {
-    width: 95%;
+    width: 90%;
+  }
+}
+@media all and (max-width: 800px) {
+  .message-box {
+    width: 90%;
+    background-color: green;
   }
 }
 .message-box {
@@ -374,7 +381,7 @@ nav .links span {
 
 .footer-template {
   margin: 0 auto;
-  width: 1280px;
+  max-width: 1280px;
   height: 100px;
   background-color: #79addc;
   display: flex;
@@ -407,6 +414,24 @@ nav .links span {
   color: white;
   margin-right: 150px;
   font-size: 18px;
+}
+
+@media all and (max-width: 800px) {
+  .footer-template {
+    display: block;
+    flex-direction: column;
+  }
+  .footer-template .logo-white {
+    margin: 0 auto;
+  }
+  .footer-template .footer-copyright {
+    margin: 0 auto;
+    font-size: 10px;
+  }
+  .footer-template .footer-socials {
+    margin: 0 auto;
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -6,6 +6,7 @@
   position: relative;
 
   .row1 {
+    max-width: 800px;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -31,6 +32,7 @@
   }
 
   .row2 {
+    max-width: 800px;
     margin-top: 20px;
     align-items: center;
     margin-bottom: 20px;
@@ -49,6 +51,7 @@
       .top-text {
         width: 96px;
         height: 23px;
+        // background-color: yellow;
 
         p {
           color: $site-black;
@@ -59,12 +62,12 @@
       .row2-input {
         position: relative;
         input {
-          width: 698px;
+          width: 704px;
           height: 58px;
           padding-left: 10px;
           border: $content-border;
           color: $site-black;
-          margin-left: 24px;
+          // background-color: aqua;
         }
         i {
           position: absolute;
@@ -76,7 +79,7 @@
     }
   }
   .row3 {
-    width: 818px;
+    max-width: 800px;
     height: 58px;
     background-color: $site-white;
     display: flex;
@@ -137,16 +140,16 @@
       flex-direction: column;
       margin: 0 auto 20px 20px;
       #fName {
-        width: 95%;
+        width: 90%;
         margin-bottom: 20px;
       }
       #country {
-        width: 95%;
+        width: 90%;
         margin-bottom: 20px;
       }
       .holder {
         .long-box {
-          width: 95%;
+          width: 90%;
         }
       }
     }
@@ -156,7 +159,14 @@
 @media all and (max-width: $home-form-width) {
   .form-content {
     .submit-button {
-      width: 95%;
+      width: 90%;
     }
+  }
+}
+
+@media all and (max-width: $home-form-width) {
+  .message-box {
+    width: 90%;
+    background-color: green;
   }
 }
