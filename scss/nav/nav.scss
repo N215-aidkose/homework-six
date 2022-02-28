@@ -37,7 +37,7 @@ nav {
   }
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: $home-form-width) {
   nav {
     .links {
       a {
