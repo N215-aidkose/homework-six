@@ -139,6 +139,7 @@
     .row1 {
       margin-left: 40px;
       width: 90%;
+      flex-direction: column;
       .holder {
         input {
           width: 100%;
@@ -166,6 +167,7 @@
       margin-left: 40px;
       width: 90%;
       height: 58px;
+      flex-direction: column;
       .holder2 {
         width: 100%;
         // background-color: yellow;
