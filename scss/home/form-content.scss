@@ -159,7 +159,6 @@
     }
   }
 }
-
 @media all and (max-width: $home-form-width) {
   .form-content {
     .row2 {
@@ -170,6 +169,8 @@
       .holder2 {
         width: 100%;
         // background-color: yellow;
+        .top-text {
+        }
         .row2-input {
           width: 100%;
           input {
@@ -183,6 +184,9 @@
 }
 
 @media all and (max-width: $home-form-width) {
+}
+
+@media all and (max-width: $home-form-width) {
   .form-content {
     .submit-button {
       width: 90%;
@@ -193,6 +197,16 @@
   .form-content {
     .message-box {
       width: 90%;
+    }
+  }
+}
+
+@media all and (max-width: $home-form-width) {
+  .form-content {
+    .row3 {
+      background-color: yellow;
+      width: 90%;
+      margin-left: 20px;
     }
   }
 }
