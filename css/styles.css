@@ -330,6 +330,7 @@ nav .links span {
   .form-content .row1 {
     margin-left: 40px;
     width: 90%;
+    flex-direction: column;
   }
   .form-content .row1 .holder input {
     width: 100%;
@@ -351,6 +352,7 @@ nav .links span {
     margin-left: 40px;
     width: 90%;
     height: 58px;
+    flex-direction: column;
   }
   .form-content .row2 .holder2 {
     width: 100%;
