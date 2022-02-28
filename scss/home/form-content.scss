@@ -137,7 +137,7 @@
 @media all and (max-width: $home-form-width) {
   .form-content {
     .row1 {
-      margin-left: 20px;
+      margin-left: 40px;
       width: 90%;
       .holder {
         input {
@@ -163,7 +163,7 @@
   .form-content {
     .row2 {
       // background-color: green;
-      margin-left: 20px;
+      margin-left: 40px;
       width: 90%;
       height: 58px;
       .holder2 {
@@ -204,9 +204,9 @@
 @media all and (max-width: $home-form-width) {
   .form-content {
     .row3 {
-      background-color: yellow;
+      // background-color: yellow;
       width: 90%;
-      margin-left: 20px;
+      margin-left: 40px;
     }
   }
 }

@@ -328,7 +328,7 @@ nav .links span {
 
 @media all and (max-width: 800px) {
   .form-content .row1 {
-    margin-left: 20px;
+    margin-left: 40px;
     width: 90%;
   }
   .form-content .row1 .holder input {
@@ -348,7 +348,7 @@ nav .links span {
 }
 @media all and (max-width: 800px) {
   .form-content .row2 {
-    margin-left: 20px;
+    margin-left: 40px;
     width: 90%;
     height: 58px;
   }
@@ -374,9 +374,8 @@ nav .links span {
 }
 @media all and (max-width: 800px) {
   .form-content .row3 {
-    background-color: yellow;
     width: 90%;
-    margin-left: 20px;
+    margin-left: 40px;
   }
 }
 .message-box {
