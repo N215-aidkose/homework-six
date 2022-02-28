@@ -201,7 +201,7 @@ nav .links span {
   .booking {
     display: flex;
     text-align: center;
-    left: 20px;
+    left: 40px;
   }
 }
 .form-content {
@@ -238,7 +238,7 @@ nav .links span {
   right: 10px;
 }
 .form-content .row2 {
-  width: 800px;
+  max-width: 800px;
   margin-top: 20px;
   align-items: center;
   margin-bottom: 20px;
@@ -280,7 +280,7 @@ nav .links span {
   right: 20px;
 }
 .form-content .row3 {
-  width: 800px;
+  max-width: 800px;
   height: 58px;
   background-color: white;
   display: flex;
@@ -389,10 +389,10 @@ nav .links span {
   position: relative;
 }
 .message-box input {
+  width: 800px;
   color: black;
   font-family: Gill;
   font-size: 18px;
-  width: 813px;
   height: 192px;
   border: 2px solid #79addc;
   padding-bottom: 130px;
@@ -403,7 +403,7 @@ nav .links span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 813px;
+  max-width: 813px;
   height: 60px;
   background-color: #79addc;
   margin: 0 auto;
