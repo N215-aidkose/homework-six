@@ -78,6 +78,45 @@ nav .links span {
     display: inline-block;
   }
 }
+.about-nav {
+  max-width: 980px;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 92px;
+}
+.about-nav .logo-black {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo-black.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 20px;
+}
+.about-nav .about-links {
+  margin-right: 20px;
+}
+.about-nav .about-links a {
+  color: black;
+  text-decoration: none;
+  font-family: Gill;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.about-nav .about-links a:hover {
+  font-weight: bold;
+  font-style: italic;
+}
+.about-nav .about-links span {
+  color: #79addc;
+  margin: 0px 20px;
+}
+
 .banner {
   max-width: 1280px;
   min-height: 500px;

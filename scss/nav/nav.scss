@@ -51,3 +51,45 @@ nav {
     }
   }
 }
+
+.about-nav {
+  max-width: $nav-width;
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: 2px solid $site-black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 92px;
+
+  .logo-black {
+    width: 92px;
+    height: 42px;
+    background-image: url(../images/logo-black.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+  }
+
+  .about-links {
+    margin-right: 20px;
+
+    a {
+      color: $site-black;
+      text-decoration: none;
+      font-family: Gill;
+      font-size: 15px;
+      letter-spacing: 2px;
+    }
+    a:hover {
+      font-weight: bold;
+      font-style: italic;
+    }
+    span {
+      color: $site-blue;
+      margin: 0px 20px;
+    }
+  }
+}
