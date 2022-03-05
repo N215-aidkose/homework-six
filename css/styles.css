@@ -507,5 +507,79 @@ nav .links span {
     font-size: 14px;
   }
 }
+.about-content {
+  width: 980px;
+  margin: 0 auto;
+  min-height: 200px;
+  position: relative;
+}
+.about-content .about-top-half {
+  margin-top: 91px;
+  margin-bottom: 95px;
+}
+.about-content .about-top-half .about-header {
+  color: black;
+  font-size: 60px;
+  font-family: ProxThin;
+}
+.about-content .about-top-half .about-underline {
+  width: 153px;
+  height: 2px;
+  background-color: black;
+  margin-top: -15px;
+  margin-bottom: 36px;
+}
+.about-content .about-top-half .about-description {
+  color: black;
+  font-size: 16px;
+  font-family: Gill;
+}
+.about-content .about-bottom-half {
+  margin-bottom: 179px;
+}
+.about-content .about-bottom-half .client-quote-header {
+  color: black;
+  font-size: 40px;
+  font-family: ProxThin;
+}
+.about-content .about-bottom-half .client-underline {
+  width: 190px;
+  height: 2px;
+  background-color: black;
+  margin-top: -15px;
+  margin-bottom: 36px;
+}
+.about-content .about-bottom-half .client-box {
+  display: flex;
+  max-width: 722px;
+  height: 150px;
+  position: relative;
+  margin-bottom: 37px;
+}
+.about-content .about-bottom-half .client-box .client-image {
+  width: 260px;
+  height: 150px;
+  overflow: hidden;
+  margin-right: 21px;
+}
+.about-content .about-bottom-half .client-box .client-image img {
+  width: 100%;
+}
+.about-content .about-bottom-half .client-box .client-quotes {
+  width: 440px;
+  margin-bottom: 20px;
+}
+.about-content .about-bottom-half .client-box .client-quotes p {
+  color: black;
+  font-size: 16px;
+  font-family: Gill;
+}
+.about-content .about-bottom-half .client-box .client-name {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: #79addc;
+  font-family: Gill;
+}
 
 /*# sourceMappingURL=styles.css.map */

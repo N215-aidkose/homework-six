@@ -1,0 +1,79 @@
+.about-content {
+  width: $nav-width;
+  margin: $center;
+  min-height: 200px;
+  position: relative;
+
+  .about-top-half {
+    // background-color: coral;
+    margin-top: 91px;
+    margin-bottom: 95px;
+    .about-header {
+      color: $site-black;
+      font-size: 60px;
+      font-family: ProxThin;
+    }
+    .about-underline {
+      width: 153px;
+      height: 2px;
+      background-color: $site-black;
+      margin-top: -15px;
+      margin-bottom: 36px;
+    }
+    .about-description {
+      color: $site-black;
+      font-size: 16px;
+      font-family: Gill;
+    }
+  }
+
+  .about-bottom-half {
+    // background-color: pink;
+    margin-bottom: 179px;
+
+    .client-quote-header {
+      color: $site-black;
+      font-size: 40px;
+      font-family: ProxThin;
+    }
+    .client-underline {
+      width: 190px;
+      height: 2px;
+      background-color: $site-black;
+      margin-top: -15px;
+      margin-bottom: 36px;
+    }
+    .client-box {
+      display: flex;
+      max-width: 722px;
+      height: 150px;
+      position: relative;
+      margin-bottom: 37px;
+      .client-image {
+        width: 260px;
+        height: 150px;
+        overflow: hidden;
+        margin-right: 21px;
+        img {
+          width: 100%;
+        }
+      }
+      .client-quotes {
+        width: 440px;
+        margin-bottom: 20px;
+        p {
+          color: $site-black;
+          font-size: 16px;
+          font-family: Gill;
+        }
+      }
+      .client-name {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        color: $site-blue;
+        font-family: Gill;
+      }
+    }
+  }
+}
