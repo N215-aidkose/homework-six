@@ -1,5 +1,5 @@
 .about-content {
-  width: $nav-width;
+  max-width: $nav-width;
   margin: $center;
   min-height: 200px;
   position: relative;
@@ -74,6 +74,35 @@
         right: 0px;
         color: $site-blue;
         font-family: Gill;
+      }
+    }
+  }
+}
+
+@media all and (max-width: $home-form-width) {
+  .about-content {
+    width: 90%;
+    justify-content: space-around;
+    .about-top-half {
+      .about-header {
+      }
+      .about-underline {
+      }
+      .about-description {
+      }
+    }
+    .about-bottom-half {
+      .client-quote-header {
+      }
+      .client-underline {
+      }
+      .client-box {
+        .client-image {
+        }
+        .client-quotes {
+        }
+        .client-name {
+        }
       }
     }
   }

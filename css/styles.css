@@ -519,7 +519,7 @@ nav .links span {
   }
 }
 .about-content {
-  width: 980px;
+  max-width: 980px;
   margin: 0 auto;
   min-height: 200px;
   position: relative;
@@ -592,6 +592,13 @@ nav .links span {
   right: 0px;
   color: #79addc;
   font-family: Gill;
+}
+
+@media all and (max-width: 800px) {
+  .about-content {
+    width: 90%;
+    justify-content: space-around;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
