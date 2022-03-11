@@ -1,0 +1,28 @@
+.app {
+  .tours-hero {
+    margin: 50px auto 48px auto;
+    max-width: $nav-width;
+    height: 200px;
+    background-image: linear-gradient(
+        rgba($site-black, 0.39),
+        rgba($site-black, 0.39)
+      ),
+      url(../images/tours-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $site-white;
+    font-family: ProxThin;
+    font-size: 60px;
+  }
+}
+
+@media all and (max-width: $home-form-width) {
+  .app {
+    .tours-hero {
+    }
+  }
+}
