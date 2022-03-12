@@ -1,0 +1,89 @@
+.app {
+  .tour-info {
+    max-width: $nav-width;
+    margin: 0 auto;
+    .tour-info-hero {
+      background-color: black;
+      margin-top: 49px;
+
+      img {
+        width: 980px;
+        height: 413px;
+        object-fit: cover;
+        overflow: hidden;
+        opacity: 0.6;
+        margin-bottom: -5px;
+      }
+    }
+    .tour-info-images {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      //   background-color: green;
+      margin-top: 40px;
+      margin-bottom: 29px;
+
+      img {
+        width: 298px;
+        height: 347px;
+        // background-color: yellow;
+      }
+    }
+    .tour-descriptions {
+      color: $site-black;
+      margin-bottom: 70px;
+      .day1 {
+        .day1-header {
+          font-family: ProxThin;
+          font-size: 60px;
+        }
+        .day1-info {
+          font-family: Gill;
+          font-size: 16px;
+        }
+      }
+      .day2 {
+        .day2-header {
+          font-family: ProxThin;
+          font-size: 60px;
+        }
+        .day2-info {
+          font-family: Gill;
+          font-size: 16px;
+        }
+      }
+      .day3 {
+        .day3-header {
+          font-family: ProxThin;
+          font-size: 60px;
+        }
+        .day3-info {
+          font-family: Gill;
+          font-size: 16px;
+        }
+      }
+      .underline {
+        width: 171px;
+        height: 2px;
+        background-color: $site-black;
+        margin-top: 5px;
+        margin-bottom: 36.5px;
+      }
+    }
+  }
+  .book-button {
+    margin: 0 auto;
+    width: 133px;
+    height: 40px;
+    background-color: $site-blue;
+    border-radius: 50px;
+    color: $site-white;
+    font-family: Gill;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 111px;
+  }
+}

@@ -361,6 +361,84 @@ nav .links span {
   font-size: 60px;
 }
 
+.app .tour-info {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.app .tour-info .tour-info-hero {
+  background-color: black;
+  margin-top: 49px;
+}
+.app .tour-info .tour-info-hero img {
+  width: 980px;
+  height: 413px;
+  object-fit: cover;
+  overflow: hidden;
+  opacity: 0.6;
+  margin-bottom: -5px;
+}
+.app .tour-info .tour-info-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 29px;
+}
+.app .tour-info .tour-info-images img {
+  width: 298px;
+  height: 347px;
+}
+.app .tour-info .tour-descriptions {
+  color: black;
+  margin-bottom: 70px;
+}
+.app .tour-info .tour-descriptions .day1 .day1-header {
+  font-family: ProxThin;
+  font-size: 60px;
+}
+.app .tour-info .tour-descriptions .day1 .day1-info {
+  font-family: Gill;
+  font-size: 16px;
+}
+.app .tour-info .tour-descriptions .day2 .day2-header {
+  font-family: ProxThin;
+  font-size: 60px;
+}
+.app .tour-info .tour-descriptions .day2 .day2-info {
+  font-family: Gill;
+  font-size: 16px;
+}
+.app .tour-info .tour-descriptions .day3 .day3-header {
+  font-family: ProxThin;
+  font-size: 60px;
+}
+.app .tour-info .tour-descriptions .day3 .day3-info {
+  font-family: Gill;
+  font-size: 16px;
+}
+.app .tour-info .tour-descriptions .underline {
+  width: 171px;
+  height: 2px;
+  background-color: black;
+  margin-top: 5px;
+  margin-bottom: 36.5px;
+}
+.app .book-button {
+  margin: 0 auto;
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border-radius: 50px;
+  color: white;
+  font-family: Gill;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 111px;
+}
+
 .booking {
   max-width: 800px;
   min-height: 40px;
