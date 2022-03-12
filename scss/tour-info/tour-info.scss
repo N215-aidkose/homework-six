@@ -5,6 +5,9 @@
     .tour-info-hero {
       background-color: black;
       margin-top: 49px;
+      overflow: hidden;
+      position: relative;
+      max-height: 413px;
 
       img {
         width: 980px;
@@ -14,19 +17,58 @@
         opacity: 0.6;
         margin-bottom: -5px;
       }
+      .hero-header-text {
+        font-size: 50px;
+        color: $site-white;
+        font-family: ProxThin;
+        position: absolute;
+        top: 18px;
+        left: 30px;
+      }
+
+      .hero-price-text {
+        font-size: 30px;
+        color: $site-white;
+        font-family: ProxThin;
+        bottom: 2px;
+        right: 30px;
+        position: absolute;
+      }
     }
     .tour-info-images {
       display: flex;
       justify-content: space-between;
-      align-items: center;
-      //   background-color: green;
+      min-height: 347px;
       margin-top: 40px;
       margin-bottom: 29px;
+      // background-color: beige;
 
-      img {
+      .info1 {
         width: 298px;
-        height: 347px;
-        // background-color: yellow;
+        min-height: 347px;
+        background-color: pink;
+        background-image: url(../images/israel/israel-tour-01.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .info2 {
+        width: 298px;
+        min-height: 347px;
+        // background-color: green;
+        background-image: url(../images/israel/israel-tour-02.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .info3 {
+        width: 298px;
+        min-height: 347px;
+        // background-color: red;
+        background-image: url(../images/israel/israel-tour-03.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
       }
     }
     .tour-descriptions {
@@ -85,5 +127,18 @@
     align-items: center;
     margin-top: 20px;
     margin-bottom: 111px;
+    cursor: pointer;
+  }
+}
+
+@media all and (max-width: $home-form-width) {
+  .tour-info {
+    width: 90%;
+
+    .tour-info-images {
+      img {
+        object-fit: none;
+      }
+    }
   }
 }

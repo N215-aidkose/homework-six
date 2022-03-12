@@ -368,6 +368,9 @@ nav .links span {
 .app .tour-info .tour-info-hero {
   background-color: black;
   margin-top: 49px;
+  overflow: hidden;
+  position: relative;
+  max-height: 413px;
 }
 .app .tour-info .tour-info-hero img {
   width: 980px;
@@ -377,16 +380,53 @@ nav .links span {
   opacity: 0.6;
   margin-bottom: -5px;
 }
+.app .tour-info .tour-info-hero .hero-header-text {
+  font-size: 50px;
+  color: white;
+  font-family: ProxThin;
+  position: absolute;
+  top: 18px;
+  left: 30px;
+}
+.app .tour-info .tour-info-hero .hero-price-text {
+  font-size: 30px;
+  color: white;
+  font-family: ProxThin;
+  bottom: 2px;
+  right: 30px;
+  position: absolute;
+}
 .app .tour-info .tour-info-images {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  min-height: 347px;
   margin-top: 40px;
   margin-bottom: 29px;
 }
-.app .tour-info .tour-info-images img {
+.app .tour-info .tour-info-images .info1 {
   width: 298px;
-  height: 347px;
+  min-height: 347px;
+  background-color: pink;
+  background-image: url(../images/israel/israel-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info2 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/israel/israel-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info3 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/israel/israel-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .app .tour-info .tour-descriptions {
   color: black;
@@ -437,8 +477,17 @@ nav .links span {
   align-items: center;
   margin-top: 20px;
   margin-bottom: 111px;
+  cursor: pointer;
 }
 
+@media all and (max-width: 800px) {
+  .tour-info {
+    width: 90%;
+  }
+  .tour-info .tour-info-images img {
+    object-fit: none;
+  }
+}
 .booking {
   max-width: 800px;
   min-height: 40px;
