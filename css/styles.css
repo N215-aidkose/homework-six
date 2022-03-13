@@ -548,6 +548,78 @@ nav .links span {
   background-position: center;
   background-repeat: no-repeat;
 }
+.app .tour-info .tour-info-images .info19 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/japan/japan-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info20 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/japan/japan-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info21 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/japan/japan-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info22 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/canada/canada-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info23 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/canada/canada-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info24 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/canada/canada-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info25 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/uae/uae-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info26 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/uae/uae-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info27 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/uae/uae-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .app .tour-info .tour-descriptions {
   color: black;
   margin-bottom: 70px;
