@@ -428,6 +428,126 @@ nav .links span {
   background-position: center;
   background-repeat: no-repeat;
 }
+.app .tour-info .tour-info-images .info4 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/usa/usa-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info5 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/usa/usa-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info6 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/usa/usa-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info7 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/australia/aus-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info8 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/australia/aus-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info9 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/australia/aus-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info10 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/new-z/nz-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info11 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/new-z/nz-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info12 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/new-z/nz-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info13 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/france/france-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info14 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/france/france-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info15 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/france/france-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info16 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/egypt/egypt-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info17 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/egypt/egypt-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.app .tour-info .tour-info-images .info18 {
+  width: 298px;
+  min-height: 347px;
+  background-image: url(../images/egypt/egypt-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .app .tour-info .tour-descriptions {
   color: black;
   margin-bottom: 70px;
